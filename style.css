@@ -67,9 +67,9 @@ nav .container {
 }
 
 #hero {
-  background: white;
+  background: linear-gradient(135deg, #f6f9fc 0%, #e9f2ff 100%);
   color: #2c3e50;
-  padding: 120px 0 80px;
+  padding: 100px 0 60px;
 }
 
 .hero-content {
@@ -122,9 +122,9 @@ nav .container {
 
 .hero-image {
   flex: 1;
-  max-width: 500px;
+  max-width: 450px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 #hero h1 {
