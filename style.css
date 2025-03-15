@@ -13,8 +13,9 @@ body {
 }
 
 nav {
-  background: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.1);
   position: fixed;
   width: 100%;
   top: 0;
@@ -25,20 +26,44 @@ nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 80px;
 }
 
 .logo {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #2c3e50;
+  font-size: 1.6em;
+  font-weight: 800;
+  background: linear-gradient(45deg, #2c3e50, #3498db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.5px;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #2c3e50;
-  margin-left: 30px;
-  font-weight: 500;
+  margin-left: 40px;
+  font-weight: 600;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #3498db;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background: #3498db;
+  transition: width 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
 }
 
 #hero {
