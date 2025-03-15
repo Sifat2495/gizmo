@@ -1,4 +1,67 @@
-html {
-  height: 100%;
-  width: 100%;
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #f0f2f5;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin: 0;
+  color: #2d3436;
+}
+
+.role {
+  color: #636e72;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.skills, .projects {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tags span {
+  background: #0984e3;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+h2 {
+  color: #2d3436;
+  margin-top: 0;
 }
