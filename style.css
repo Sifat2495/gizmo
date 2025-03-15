@@ -13,9 +13,9 @@ body {
 }
 
 nav {
-  background: rgba(240, 248, 255, 0.97);
+  background: rgba(235, 245, 255, 0.97);
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 15px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 15px rgba(100, 149, 237, 0.08);
   position: fixed;
   width: 100%;
   top: 0;
